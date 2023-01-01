@@ -32,3 +32,20 @@ sudo apt install python3-pyqt5
 
 This repository contains examples using PyQt/PySide to create simple user interfaces.
 The examples use 'PySide6'. To use a different version or implementation simply replace 'PySide6' with the respective version/implementation. See the comments in the example files.
+
+To plotting examples use the package 'pyqtgraph'. It can be installed via following command:
+```
+pip install pyqtgraph
+```
+
+**ATTENTION:**
+When executing the plotting examples on a Raspberry Pi OS (Raspian 11) the following error may occur:
+```
+ImportError: libcblas.so.3: cannot open shared object file: No such file or directory
+```
+
+If that is the case, install the missing library with the following command:
+```
+sudo apt-get install libatlas-base-dev
+```
+See [Link](https://stackoverflow.com/questions/53347759/importerror-libcblas-so-3-cannot-open-shared-object-file-no-such-file-or-dire) for more information.
