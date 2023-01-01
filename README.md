@@ -33,7 +33,7 @@ sudo apt install python3-pyqt5
 This repository contains examples using PyQt/PySide to create simple user interfaces.
 The examples use 'PySide6'. To use a different version or implementation simply replace 'PySide6' with the respective version/implementation. See the comments in the example files.
 
-To plotting examples use the package 'pyqtgraph'. It can be installed via following command:
+The plotting examples use the package 'pyqtgraph'. It can be installed via following command:
 ```
 pip install pyqtgraph
 ```
