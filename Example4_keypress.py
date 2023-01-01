@@ -13,7 +13,6 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(self.label)
                 
     def keyPressEvent(self, e):                                  # override the keyPressEvent of the parent class
-        print(e.key())
         if e.key() == QtCore.Qt.Key_Escape:
             self.close()
         if e.key() == QtCore.Qt.Key.Key_R:
