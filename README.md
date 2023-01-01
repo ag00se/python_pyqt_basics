@@ -28,3 +28,7 @@ For Raspberry Pi OS one can use PyQt5 from the available repositories:
 sudo apt install python3-pyqt5
 ```
 
+### Examples
+
+This repository contains examples using PyQt/PySide to create simple user interfaces.
+The examples use 'PySide6'. To use an other version or implementation simply replace 'PySide6' with the respective version/implementation as commented in the example files.
